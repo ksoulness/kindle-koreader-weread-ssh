@@ -16,6 +16,7 @@ KPW3（Paperwhite 3，固件 `<5.16.3`）改写整机、装 KOReader 插件、�
 | [04-微信读书与阅读插件](docs/04-微信读书与阅读插件.md) | 微信读书 / 番茄 / Legado / Leko 四插件 |
 | [05-KOReader升级](docs/05-KOReader升级.md) | v2025.08 → v2026.07.1，kindlepw2 包选择 |
 | [06-菜单优化手册](docs/06-菜单优化手册.md) | 重排 / 隐藏 / 下沉第二页 / 调出 SSH |
+| [packages/](packages/README.md) | 安装包归档：原生微信读书 + 四插件 zip（离线可用，sha256 已校验） |
 
 ## 一句话结论
 
