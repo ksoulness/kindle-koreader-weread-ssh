@@ -35,4 +35,23 @@ unzip plugins/weread.koplugin-v1.7.0.zip -d weread.koplugin/
 ```
 
 - 四个插件都装到 `H:\koreader\plugins\`，重启 KOReader 后生效。
-- 插件入口：工具菜单（weread/fanqie/legado/leko 已统一排序）；Legado 与 Leko 入口特殊，见 [docs/04](../docs/04-微信读书与阅读插件.md)。
+- 插件入口：工具菜单（weread/fanqie/Legado_main/leko 已统一排序）；Legado 与 Leko 入口特殊，见 [docs/04](../docs/04-微信读书与阅读插件.md)。
+
+## Reeden（独立 Flutter 阅读器）
+
+| 文件 | 大小 | sha256 |
+|---|---|---|
+| `Reeden-kindle.zip` | 50,928,629 B | `7049657659372db8acfd10619426d24e8a49bfa001666f507c3c43c0c04c5b93` |
+
+- 独立 Flutter 阅读器，非 KOReader 插件，越狱 + KUAL 启动，与 KOReader 互斥。
+- 三目录合并复制到 USB 根：`reeden/` + `extensions/reeden/` + `documents/Reeden.sh`。
+- 详见 [docs/07-Reeden.md](../docs/07-Reeden.md)。
+
+## Leko 书源订阅模块（源码，非安装包）
+
+| 文件 | 大小 | sha256 |
+|---|---|---|
+| `plugins/leko-subscription/BookSourceSubscription.lua` | 5,318 B | `309a5899cae379653cae253d2d7f4730e56553b14df431c6eb083bf1ab9a4937` |
+
+- 自造 Leko 书源订阅模块，每天自动拉 `https://jlmon.ccwu.cc/booksource.json`。
+- 落位 + App.lua 接线见 [docs/04](../docs/04-微信读书与阅读插件.md)。
