@@ -19,6 +19,7 @@ KPW3（Paperwhite 3，固件 `<5.16.3`）改写整机、装 KOReader 插件、�
 | [07-Reeden](docs/07-Reeden.md) | Flutter 独立阅读器（非 KOReader 插件，KUAL 启动） |
 | [08-垃圾清理与SSH装软件](docs/08-垃圾清理与SSH装软件.md) | 清 cr3cache 腾空间 + SSH tar/pscp 装软件（替代 USB MTP） |
 | [packages/](packages/README.md) | 安装包归档：原生微信读书 + 四插件 + Reeden + Leko 书源订阅模块（离线可用，sha256 已校验） |
+| [番茄书架分组补丁](packages/plugins/fanqie-bookshelf-groups-v2.16.36/README.md) | v2.16.36 的分组筛选补丁、原文件备份和恢复方法 |
 | [SKILL.md](SKILL.md) | DSH 技能：Kindle 管理与设置（SSH 接入 / 四插件 / 菜单重排 / 垃圾清理，触发词驱动） |
 
 ## 一句话结论
