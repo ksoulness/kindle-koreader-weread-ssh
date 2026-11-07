@@ -18,8 +18,14 @@ KPW3（Paperwhite 3，固件 `<5.16.3`）改写整机、装 KOReader 插件、�
 | [06-菜单优化手册](docs/06-菜单优化手册.md) | 重排 / 隐藏 / 下沉第二页 / 调出 SSH |
 | [07-Reeden](docs/07-Reeden.md) | Flutter 独立阅读器（非 KOReader 插件，KUAL 启动） |
 | [08-垃圾清理与SSH装软件](docs/08-垃圾清理与SSH装软件.md) | 清 cr3cache 腾空间 + SSH tar/pscp 装软件（替代 USB MTP） |
+| [09-Reader3部署](docs/09-Reader3部署.md) | NAS 部署：docker-compose/环境变量/书源服务/Cloudflare 公网 |
+| [10-Reader3用户与同步](docs/10-Reader3用户与同步.md) | 新增用户 + Kindle/手机/网页三种同步方式 |
+| [11-Legado自动换源补丁](docs/11-Legado自动换源补丁.md) | 死源书自动换源，解决 chapter list empty / 目录为空 |
+| [12-踩坑清单](docs/12-踩坑清单.md) | 书源不同步/换源/死源等 15 条踩坑 |
+| [13-防休眠](docs/13-防休眠.md) | 临时防休眠 keepalive 脚本，SSH 不断网 |
 | [packages/](packages/README.md) | 安装包归档：原生微信读书 + 四插件 + Reeden + Leko 书源订阅模块（离线可用，sha256 已校验） |
 | [番茄书架分组补丁](packages/plugins/fanqie-bookshelf-groups-v2.16.36/README.md) | v2.16.36 的分组筛选补丁、原文件备份和恢复方法 |
+| [Legado 自动换源补丁包](packages/plugins/legado-autosource/README.md) | reader3.lua 补丁版 + 原始版，死源书自动换源 |
 | [SKILL.md](SKILL.md) | DSH 技能：Kindle 管理与设置（SSH 接入 / 四插件 / 菜单重排 / 垃圾清理，触发词驱动） |
 
 ## 一句话结论
